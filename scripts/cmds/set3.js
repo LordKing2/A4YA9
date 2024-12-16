@@ -3,7 +3,7 @@ module.exports = {
     name: "set",
     aliases: ['ap'],
     version: "1.0",
-    author: "Samir B. Thakuri",
+    author: "jay lord",
     role: 0,
     shortDescription: {
       en: "Set coins and experience points for a user"
@@ -18,9 +18,9 @@ module.exports = {
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["100087320919723"];
+    const permission = ["61560050885709"];
   if (!permission.includes(event.senderID)) {
-    api.sendMessage("𝙄𝙙𝙞𝙤𝙩...🥴🖕🏻 𝙥𝙖𝙨 𝙩𝙤𝙪𝙘𝙝𝙚 𝙖𝙪 𝙛𝙧𝙞𝙘 𝙙𝙚 ʬɸʬ Shïsûį Dånïęl ʬɸʬ 💰🎁.", event.threadID, event.messageID);
+    api.sendMessage("𝙄𝙙𝙞𝙤𝙩...🥴🖕🏻 𝙥𝙖𝙨 𝙩𝙤𝙪𝙘𝙝𝙚 𝙖𝙪 𝙛𝙧𝙞𝙘 𝙙𝙚 ʬɸʬ Jayden Smith ʬɸʬ 💰🎁.", event.threadID, event.messageID);
     return;
   }
     const query = args[0];
