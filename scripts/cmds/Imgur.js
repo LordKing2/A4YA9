@@ -3,7 +3,7 @@ const axios = require("axios");
 module.exports.config = {
   name: "imgur",
   version: "6.9",
-  author: "GoatMart",
+  author: "lord king",
   countDown: 5,
   role: 0,
   category: "media",
@@ -23,7 +23,7 @@ module.exports.onStart = async function ({ api, event }) {
   }
   
   try {
-    const baseApiUrl = 'https://g-v1.onrender.com';
+    const baseApiUrl = 'https://base-api.onrender.com';
     
     const uploadResponse = await axios.post(`${baseApiUrl}/v1/upload`, null, {
       params: { url: url },
